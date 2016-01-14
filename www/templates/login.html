@@ -1,0 +1,25 @@
+﻿<ion-modal-view>
+  <ion-header-bar>
+    <h1 class="title">Đăng nhập</h1>
+    <div class="buttons">
+      <button class="button button-icon button-clear ion-ios-close" ng-click="closeLogin()"></button>
+    </div>
+  </ion-header-bar>
+  <ion-content>
+    <form ng-submit="doLogin()">
+      <div class="list">
+        <label class="item item-input">
+          <!--<span class="input-label">Tên đăng nhập</span>-->
+          <input type="text" ng-model="loginData.username" placeholder="Tên đăng nhập">
+        </label>
+        <label class="item item-input">
+          <!--<span class="input-label">Mật khẩu</span>-->
+          <input type="password" ng-model="loginData.password" placeholder="Mật khẩu">
+        </label>
+        <label class="item">
+          <button class="button button-block button-positive" type="submit">Đăng nhập</button>
+        </label>
+      </div>
+    </form>
+  </ion-content>
+</ion-modal-view>

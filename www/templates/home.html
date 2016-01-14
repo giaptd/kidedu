@@ -1,0 +1,39 @@
+﻿<ion-view view-title="Học toán">
+    <ion-nav-buttons side="right">
+        <button class="button button-icon icon ion-loop" ng-click="Reset()"></button>
+    </ion-nav-buttons>
+    <ion-content>
+        <ion-list style="text-align:center" id="hoctoan">
+            <div class="row" id="express">
+                <div class="col col-20"><img ng-src="img/{{var1}}.png" /></div>
+                <div class="col col-20"><img ng-src="{{sign}}" id="imgSign" /></div>
+                <div class="col col-20"><img ng-src="img/{{var2}}.png" /></div>
+                <div class="col col-20"><img ng-src="img/equal.png" /></div>
+                <div class="col col-20">
+                    <span id="total">{{result}}</span>
+                    <img id="imgResult" ng-src="img/help-icon.png" width="60" style="float:left" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col col-33 ng-enter"><img ng-src="img/0.png" ng-click="Add(0)" /></div>
+                <div class="col col-33 ng-enter"><img ng-src="img/1.png" ng-click="Add(1)" /></div>
+                <div class="col col-33 ng-enter"><img ng-src="img/2.png" ng-click="Add(2)" /></div>
+            </div>
+            <div class="row">
+                <div class="col col-33 ng-enter"><img ng-src="img/3.png" ng-click="Add(3)" /></div>
+                <div class="col col-33 ng-enter"><img ng-src="img/4.png" ng-click="Add(4)" /></div>
+                <div class="col col-33 ng-enter"><img ng-src="img/5.png" ng-click="Add(5)" /></div>
+            </div>
+            <div class="row">
+                <div class="col col-33 ng-enter"><img ng-src="img/6.png" ng-click="Add(6)" /></div>
+                <div class="col col-33 ng-enter"><img ng-src="img/7.png" ng-click="Add(7)" /></div>
+                <div class="col col-33 ng-enter"><img ng-src="img/8.png" ng-click="Add(8)" /></div>
+            </div>
+            <div class="row">
+                <div class="col col-33 ng-enter" ><img ng-src="img/9.png" ng-click="Add(9)" /></div>
+                <div class="col col-33 ng-enter"><img ng-src="img/space.png" ng-click="Remove()" /></div>
+                <div class="col col-33 ng-enter"><img ng-src="img/enter.png" ng-click="OK()" /></div>                
+            </div>
+        </ion-list>
+    </ion-content>
+</ion-view>

@@ -1,0 +1,56 @@
+.item-thumbnail h3 {
+    text-align: center;
+}
+
+a.item-thumbnail {
+    text-decoration: none;
+}
+
+.item-thumbnail img {
+    width: 80%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.no-border {
+    border-width: 0px !important;
+}
+
+#addproduct select {
+    width: 100% !important;
+    max-width: 100% !important;
+    text-align: left !important;
+    text-align-last: left !important;
+}
+
+#hoctoan img {
+    width: 60px;
+}
+
+#hoctoan #express {
+    border-bottom: 2px dashed red;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+#hoctoan #total {
+    line-height: 60px;
+    font-size: 50px;
+    font-weight: bold;
+    color: red;
+}
+
+
+#hoctoan .ng-enter {
+    -webkit-animation: fadeInLeft 1s;
+    animation: fadeInLeft 1s;
+}
+
+#hoctoan .animate-in-primary {
+    -webkit-animation: animateInPrimary;
+    animation: animateInPrimary;
+    -webkit-animation-duration: 750ms;
+    animation-duraton: 750ms;
+}
